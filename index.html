@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дизайн для бьюти-экспертов и школ — гайды, презентации, лендинги | Наталия Спеш</title>
+<meta name="description" content="Дизайнер для бьюти-сферы 5+ лет. Гайды, презентации для курсов и выступлений, лендинги, логотипы, сертификаты. Оформляла школу, чемпионат и конференцию «Нева». Ведущий дизайнер в IT, опыт в маркетинге. Цены на сайте.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Дизайн для бьюти — 5+ лет | Наталия Спеш">
+<meta property="og:description" content="Гайды, презентации, лендинги, сертификаты для бьюти-экспертов и школ. Цены на сайте.">
+<meta property="og:url" content="https://poppy13paws-pixel.github.io/beauty-portfolio/">
+<meta property="og:image" content="https://poppy13paws-pixel.github.io/beauty-portfolio/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFC8CF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#FFC8CF; --pink-soft:#FFF3F7; --lime:#DFF25B; --cream:#FFFDD5;
+  --ink:#1D1D1F; --paper:#F4F3EB; --grey:#6b6468; --line:rgba(29,29,31,.14);
+  --r:28px; --pad:clamp(16px,4vw,48px);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:Onest,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--pink-soft);color:var(--ink);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 var(--pad)}
+section{padding:clamp(56px,9vw,112px) 0}
+h1,h2,h3{font-weight:800;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:clamp(34px,6.2vw,72px);margin-bottom:clamp(24px,4vw,48px)}
+h3{font-size:clamp(20px,2.4vw,26px);line-height:1.15;letter-spacing:-.01em}
+.eyebrow{font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+.lead{font-size:clamp(18px,2vw,22px);max-width:640px}
+.muted{color:var(--grey)}
+.ph{background:var(--lime);color:var(--ink);padding:0 .25em;border-radius:6px;font-weight:600;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.cases>*,.two>*,.hero .wrap>*{min-width:0}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:600;font-size:17px;padding:18px 30px;border-radius:62px;border:0;cursor:pointer;transition:transform .2s,background .2s;font-family:inherit}
+.btn:hover{transform:translateY(-2px);background:#000}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--paper)}
+.btn.lime{background:var(--lime);color:var(--ink)}
+.btn.sm{padding:12px 22px;font-size:15px}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,243,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hbar{display:flex;align-items:center;gap:20px;height:72px}
+.logo{font-weight:800;text-decoration:none;font-size:18px;letter-spacing:-.01em;white-space:nowrap}
+.logo span{font-weight:500;color:var(--grey)}
+nav{display:flex;gap:26px;margin:0 auto}
+nav a{text-decoration:none;font-weight:500;font-size:16px}
+nav a:hover{text-decoration:underline;text-underline-offset:5px}
+.burger{display:none;width:44px;height:44px;border:0;background:none;cursor:pointer;margin-left:auto;position:relative}
+.burger i{position:absolute;left:10px;right:10px;height:2px;background:var(--ink);transition:.25s}
+.burger i:nth-child(1){top:16px}.burger i:nth-child(2){top:27px}
+.burger.open i:nth-child(1){top:21px;transform:rotate(45deg)}
+.burger.open i:nth-child(2){top:21px;transform:rotate(-45deg)}
+@media(max-width:900px){
+  nav{position:fixed;inset:72px 0 auto 0;background:var(--pink-soft);flex-direction:column;gap:0;padding:8px var(--pad) 24px;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .3s;margin:0}
+  nav.open{transform:none}
+  nav a{padding:16px 0;font-size:22px;font-weight:600;border-bottom:1px solid var(--line)}
+  .burger{display:block}
+  .hbar .btn{margin-left:0}
+  .logo span{display:none}
+}
+.hbar .btn{white-space:nowrap}
+@media(max-width:560px){.hbar .btn{padding:10px 18px;font-size:14px}.hs{display:none}}
+@media(max-width:900px){.logo{margin-right:auto}.burger{margin-left:0}}
+
+/* hero */
+.hero{background:var(--pink);position:relative;overflow:hidden;padding:clamp(40px,7vw,88px) 0 clamp(56px,8vw,104px)}
+.hero:before{content:"";position:absolute;width:70vw;height:34vw;max-width:900px;background:var(--lime);border-radius:50%;left:-18vw;top:-14vw;transform:rotate(-14deg)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(38px,6vw,80px);margin-bottom:24px}
+.hero .lead{margin-bottom:32px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.hero small{display:block;margin-top:22px;font-size:15px;font-weight:500}
+.collage{position:relative;height:clamp(380px,48vw,600px)}
+.collage img{position:absolute;width:44%;border-radius:14px;box-shadow:0 18px 40px rgba(29,29,31,.25);transform:rotate(var(--rot));
+  translate:calc(var(--mx,0)*var(--k)*1px) calc(var(--my,0)*var(--k)*1px);transition:translate .35s ease-out;
+  animation:pop .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:var(--d)}
+.collage img:nth-child(1){left:2%;top:6%;--rot:-7deg;--k:14;--d:.25s}
+.collage img:nth-child(2){right:0;top:0;--rot:6deg;--k:-10;--d:.4s}
+.collage img:nth-child(3){left:12%;bottom:0;--rot:4deg;--k:18;--d:.55s}
+.collage img:nth-child(4){right:2%;bottom:6%;--rot:-5deg;--k:-16;--d:.7s}
+@keyframes pop{from{opacity:0;transform:translateY(60px) scale(.85) rotate(calc(var(--rot) * 2))}to{opacity:1;transform:rotate(var(--rot))}}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes drift{0%,100%{transform:rotate(-14deg) translate(0,0)}50%{transform:rotate(-11deg) translate(24px,14px)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.hero .wrap>div:first-child>*{animation:up .8s cubic-bezier(.2,.8,.2,1) both}
+.hero .eyebrow{animation-delay:.05s!important}.hero h1{animation-delay:.15s!important}.hero .lead{animation-delay:.3s!important}.hero .cta-row{animation-delay:.45s!important}.hero small{animation-delay:.6s!important}
+.hero:before{animation:drift 14s ease-in-out infinite}
+.final:after{animation:drift 16s ease-in-out infinite reverse}
+/* появление при прокрутке (включается скриптом, без JS всё видно сразу) */
+.js .rv{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1);transition-delay:var(--rd,0s)}
+.js .rv.in{opacity:1;transform:none}
+/* отклик при наведении */
+.num,.plate,.card,.term,.step,.review,.box,.case{transition:transform .3s ease,box-shadow .3s ease}
+.num:hover,.plate:hover,.card:hover,.term:hover,.step:hover,.review:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(29,29,31,.12)}
+.btn:active{transform:scale(.97)}
+/* CTA: при наведении чёрный цвет перетекает в персиковый и жёлтый */
+.btn:not(.ghost){position:relative;isolation:isolate;overflow:hidden;transition:transform .2s,color .35s}
+.btn:not(.ghost):before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;transition:opacity .45s ease;
+  background:linear-gradient(100deg,#FFB48C,#FFE45C,#FFC9A3,#FFF08A,#FFB48C);background-size:300% 100%}
+.btn:not(.ghost):hover,.btn:not(.ghost):focus-visible{color:var(--ink);background:var(--ink)}
+.btn:not(.ghost):hover:before,.btn:not(.ghost):focus-visible:before{opacity:1;animation:peachflow 3s linear infinite}
+@keyframes peachflow{to{background-position:-300% 0}}
+.btn svg{transition:transform .3s ease}
+.btn:hover svg{transform:translateX(3px) rotate(-8deg)}
+.tab{transition:background .2s,color .2s,transform .2s}
+.tab:hover{transform:translateY(-2px)}
+.work{animation:up .55s cubic-bezier(.2,.8,.2,1) both}
+.work .im{transition:box-shadow .3s}
+.work:hover .im{box-shadow:0 16px 34px rgba(29,29,31,.25)}
+.svc .pic img{transition:transform .5s ease}
+.svc a:hover .pic img{transform:scale(1.06)}
+details{transition:background .25s}
+details:hover{background:#fff}
+details[open] p{animation:up .4s ease both}
+header{transition:box-shadow .3s}
+header.scrolled{box-shadow:0 6px 24px rgba(29,29,31,.1)}
+.lb.open{animation:fade .25s ease}
+.lb.open img{animation:pop2 .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes pop2{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+.fab{animation:fabin .6s .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes fabin{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation:none!important;transition:none!important}
+  .js .rv{opacity:1;transform:none}
+}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.collage{height:420px;order:2}}
+
+/* numbers */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+.num{background:var(--paper);border-radius:var(--r);padding:28px 24px}
+.num b{display:block;white-space:nowrap;font-size:clamp(32px,4.6vw,60px);font-weight:800;line-height:1;letter-spacing:-.03em;margin-bottom:12px}
+.num span{font-size:16px}
+.inside{font-size:clamp(20px,2.4vw,28px);font-weight:600;max-width:820px;margin-bottom:36px;line-height:1.25}
+.plates{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.plate{background:var(--ink);color:var(--paper);border-radius:var(--r);padding:32px}
+.plate .ico{width:48px;height:48px;border-radius:50%;background:var(--lime);color:var(--ink);display:grid;place-items:center;margin-bottom:20px}
+.plate .ico svg{width:24px;height:24px}
+.plate h3{margin-bottom:12px}
+.plate p{opacity:.85;font-size:16px}
+@media(max-width:900px){.nums{grid-template-columns:1fr 1fr}.plates{grid-template-columns:1fr}}
+
+/* for whom */
+.who{background:var(--pink)}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:var(--pink-soft);border-radius:var(--r);padding:28px 24px;display:flex;flex-direction:column;gap:12px}
+.card .ico{width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--lime);display:grid;place-items:center}
+.card .ico svg{width:22px;height:22px}
+.card p{font-size:16px}
+@media(max-width:1000px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards4{grid-template-columns:1fr}}
+
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc a{background:var(--paper);border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .25s}
+.svc a:hover{transform:translateY(-4px)}
+.svc .pic{aspect-ratio:4/3;overflow:hidden;background:var(--pink)}
+.svc .pic img{width:100%;height:100%;object-fit:cover;object-position:top}
+.svc .pic img.mid{object-position:center}
+.svc .pic.text{display:grid;place-items:center;background:var(--lime);font-weight:800;font-size:clamp(40px,5vw,64px);letter-spacing:-.03em}
+.svc .body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.svc .body p{font-size:16px;color:#3a3538;flex:1}
+.price{font-weight:800;font-size:22px}
+.more{margin-top:36px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;font-size:clamp(18px,2vw,22px);font-weight:600}
+@media(max-width:1000px){.svc{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.svc{grid-template-columns:1fr}}
+
+/* flagship */
+.flag{background:var(--ink);color:var(--paper)}
+.flag h2{color:var(--paper)}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.case{background:#2a2a2d;border-radius:var(--r);padding:32px;display:flex;flex-direction:column;gap:16px}
+.case h3{font-size:clamp(24px,3vw,34px)}
+.case .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.case .shot{aspect-ratio:1/1;border-radius:12px;border:2px dashed rgba(244,243,235,.3);display:grid;place-items:center;text-align:center;font-size:13px;opacity:.7;padding:8px}
+.case.wide{grid-column:1/-1;flex-direction:row;align-items:center;justify-content:space-between;gap:32px}
+.case.wide p{max-width:560px}
+.logos2{display:flex;gap:12px;flex:none}
+.logos2 img{width:clamp(110px,16vw,170px);aspect-ratio:2/3;object-fit:cover;border-radius:12px}
+@media(max-width:700px){.case.wide{flex-direction:column;align-items:flex-start}.logos2 img{width:calc(50% - 6px)}.logos2{width:100%}}
+.case .shots.two{grid-template-columns:1fr 1fr}
+.case .shot.img{padding:0;border:0;overflow:hidden;opacity:1;cursor:zoom-in;background:#1d1d1f}
+.case .shot.img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.case .shot.img:hover img{transform:scale(1.04)}
+.done{list-style:none;padding:0;display:grid;gap:4px}
+.done li:before{content:"— ";opacity:.5}
+.case dl{display:grid;gap:6px;font-size:16px}
+.case dt{opacity:.6;font-size:14px}
+.flag .btn{margin-top:36px}
+@media(max-width:900px){.cases{grid-template-columns:1fr}}
+
+/* portfolio */
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px}
+.tab{font-family:inherit;font-size:16px;font-weight:600;border:2px solid var(--ink);background:transparent;border-radius:50px;padding:10px 20px;cursor:pointer;color:var(--ink)}
+.tab.on{background:var(--ink);color:var(--paper)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.work{display:flex;flex-direction:column;align-self:start;background:none;border:0;padding:0;text-align:left;cursor:zoom-in;font-family:inherit;color:inherit}
+.work .im{display:block;width:100%;border-radius:18px;overflow:hidden;background:var(--pink);aspect-ratio:2/3}
+.work img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.work:hover img{transform:scale(1.03)}
+.work .cap{display:block;margin-top:12px;font-size:15px;line-height:1.35}
+.work .cap b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
+.work[hidden]{display:none}
+.moreRow{text-align:center;margin-top:40px}
+@media(max-width:700px){.grid{grid-template-columns:1fr 1fr;gap:14px}}
+
+/* prices */
+.prices{background:var(--pink)}
+.ptable{background:var(--pink-soft);border-radius:var(--r);overflow:hidden;margin-bottom:28px}
+.prow{display:grid;grid-template-columns:1.3fr 1.2fr .8fr;gap:16px;padding:24px 32px;align-items:center;border-bottom:1px solid var(--line)}
+.prow:last-child{border:0}
+.prow b{font-size:clamp(18px,2vw,22px)}
+.prow .p{font-weight:800;font-size:clamp(20px,2.4vw,28px);text-align:right;white-space:nowrap}
+.prow span{color:var(--grey);font-size:16px}
+.pnote{font-size:18px;margin-bottom:28px;max-width:640px}
+@media(max-width:700px){.prow{grid-template-columns:1fr auto;padding:20px}.prow span{grid-row:2;grid-column:1/2;font-size:14px}.prow .p{grid-row:1/3;grid-column:2}}
+
+/* volume */
+.vol{background:var(--lime)}
+.vol h2{max-width:900px}
+.vol p{font-size:clamp(19px,2.3vw,26px);max-width:820px;margin-bottom:20px;line-height:1.3}
+.vol .accent{font-weight:800;font-size:clamp(24px,3.4vw,40px);line-height:1.1;margin-top:36px;max-width:860px}
+
+/* big + urgent */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--paper);border-radius:var(--r);padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.box.dark{background:var(--ink);color:var(--paper)}
+.box h2{font-size:clamp(30px,3.8vw,46px);margin:0}
+.box .rate{font-weight:600;background:var(--pink);color:var(--ink);padding:10px 16px;border-radius:14px;font-size:16px}
+.box .btn{margin-top:auto}
+@media(max-width:900px){.two{grid-template-columns:1fr}}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;counter-reset:s}
+.step{background:var(--paper);border-radius:var(--r);padding:24px 20px;counter-increment:s;position:relative}
+.step:before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--lime);font-weight:800;margin-bottom:16px}
+.step h3{font-size:20px;margin-bottom:8px}
+.step p{font-size:15px}
+@media(max-width:1000px){.steps{grid-template-columns:1fr}.step{display:grid;grid-template-columns:44px 1fr;gap:0 16px}.step:before{grid-row:1/3;margin:0}}
+
+/* terms */
+.terms{background:var(--pink)}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.term{background:var(--pink-soft);border-radius:var(--r);padding:28px;display:flex;gap:20px}
+.term .ico{flex:none;width:48px;height:48px;border-radius:50%;background:var(--ink);color:var(--lime);display:grid;place-items:center}
+.term .ico svg{width:24px;height:24px}
+.term h3{margin-bottom:8px}
+.term p{font-size:16px}
+@media(max-width:800px){.tgrid{grid-template-columns:1fr}}
+
+/* reviews */
+.rev{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.review{background:var(--paper);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:14px;border:2px dashed var(--line)}
+.review .who2{font-weight:700}
+@media(max-width:900px){.rev{grid-template-columns:1fr}}
+
+/* faq */
+details{background:var(--paper);border-radius:22px;margin-bottom:12px}
+summary{list-style:none;cursor:pointer;padding:22px 28px;font-weight:700;font-size:clamp(17px,2vw,21px);display:flex;justify-content:space-between;gap:20px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:32px;font-weight:400;line-height:1;flex:none;transition:transform .25s}
+details[open] summary:after{transform:rotate(45deg)}
+details p{padding:0 28px 24px;max-width:760px}
+
+/* final */
+.final{background:var(--pink);position:relative;overflow:hidden}
+.final:after{content:"";position:absolute;width:50vw;height:24vw;max-width:640px;background:var(--lime);border-radius:50%;right:-12vw;bottom:-8vw;transform:rotate(-14deg)}
+.final .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.final h2{font-size:clamp(40px,8vw,104px)}
+.final p{font-size:clamp(18px,2vw,22px);max-width:520px;margin-bottom:28px}
+.final .handle{margin-top:16px;font-weight:600}
+.photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border-radius:var(--r);box-shadow:0 20px 50px rgba(29,29,31,.25);transform:rotate(2deg)}
+@media(max-width:900px){.final .wrap{grid-template-columns:1fr}.photo{max-width:320px}}
+
+footer{background:var(--ink);color:var(--paper);padding:48px 0;font-size:15px}
+footer .wrap{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+footer a{text-decoration:underline;text-underline-offset:4px}
+footer small{opacity:.6;display:block;width:100%}
+
+/* floating tg */
+.fab{display:none;position:fixed;right:16px;bottom:16px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--ink);color:var(--lime);place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.fab svg{width:28px;height:28px}
+@media(max-width:900px){.fab{display:grid}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(29,29,31,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:20px;gap:14px}
+.lb.open{display:flex}
+.lb img{max-height:80vh;max-width:min(92vw,560px);border-radius:12px;object-fit:contain}
+.lb p{color:var(--paper);font-size:16px;max-width:560px;text-align:center}
+.lb button{position:absolute;background:var(--paper);border:0;width:48px;height:48px;border-radius:50%;font-size:22px;cursor:pointer;font-family:inherit}
+.lb .x{top:16px;right:16px}.lb .pv{left:16px;top:50%}.lb .nx{right:16px;top:50%}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.6 19.7c-.2 1.1-.9 1.3-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6.1 13.1 1.2 11.6c-1.1-.3-1.1-1.1.2-1.6L20.500 2.600c.9-.3 1.700.2 1.400 1.700Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="m12 3 2.800 5.700 6.200.9-4.500 4.400 1.100 6.200L12 17.200 6.400 20.200l1.100-6.200L3 9.600l6.200-.9z"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 20V10m6 10V4m6 16v-7m5 7H3"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6" stroke-linecap="round"/></g></symbol>
+  <symbol id="i-school" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="m2 9 10-5 10 5-10 5zM6 11.500V16c0 1.500 3 3 6 3s6-1.500 6-3v-4.500"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4m8-4v4"/></g></symbol>
+  <symbol id="i-brand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3c4 4 7 6 7 10a7 7 0 0 1-14 0c0-4 3-6 7-10z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M6 3h8l5 5v13H6zM14 3v5h5"/></symbol>
+  <symbol id="i-flash" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="m4 20 1-5L16 4l4 4L9 19z"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="#top">Наталия Спеш <span>· дизайн для бьюти</span></a>
+    <nav id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#works">Портфолио</a>
+      <a href="#prices">Цены</a>
+      <a href="#process">Как работаю</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn sm" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Написать<span class="hs">&nbsp;в Telegram</span></a>
+    <button class="burger" id="burger" aria-label="Меню"><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- 2. Первый экран -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Дизайнер для бьюти-сферы · 5+ лет</div>
+      <h1>Дизайн, который продаёт ваше обучение и ваше имя</h1>
+      <p class="lead">Гайды, презентации для курсов и выступлений, лендинги, логотипы и сертификаты для бьюти-экспертов, школ и мероприятий. Оформляла целую школу для мастеров, чемпионат и конференцию «Нева» в Петербурге.</p>
+      <div class="cta-row">
+        <a class="btn" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Обсудить проект в Telegram</a>
+        <a class="btn ghost" href="#works">Смотреть работы ↓</a>
+      </div>
+      <small>Отвечаю в течение дня · Цены открыты на сайте · Беру срочные заказы</small>
+    </div>
+    <div class="collage" aria-hidden="true">
+      <img src="img/neva-1.webp" alt="">
+      <img src="img/ai-2.jpg" alt="">
+      <img src="img/logo-2.webp" alt="">
+      <img src="img/cert-1.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- 3. Цифры -->
+<section>
+  <div class="wrap">
+    <div class="nums">
+      <div class="num"><b>5+ лет</b><span>только в бьюти-сфере</span></div>
+      <div class="num"><b>Десятки</b><span>постоянных клиентов, которые возвращаются годами</span></div>
+      <div class="num"><b>2 сезона</b><span>оформляла чемпионат и конференцию «Нева» в Санкт-Петербурге</span></div>
+      <div class="num"><b>1 школа</b><span>оформлена от и до: от логотипа до учебных пособий</span></div>
+    </div>
+    <p class="inside">Знаю, как устроены курсы, запуски и бьюти-мероприятия изнутри — объяснять специфику не придётся.</p>
+    <div class="plates">
+      <div class="plate"><div class="ico"><svg><use href="#i-chart"/></svg></div><h3>Ведущий дизайнер в аккредитованной IT-компании</h3><p>Привыкла к сложным задачам, сжатым срокам и чётким процессам — и переношу этот подход в каждый проект.</p></div>
+      <div class="plate"><div class="ico"><svg><use href="#i-star"/></svg></div><h3>Опыт в маркетинге</h3><p>На обсуждении проекта подскажу, как усилить подачу: оффер, структуру курса, логику запуска. Не только оформлю, но и помогу сделать так, чтобы это продавало.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Для кого -->
+<section class="who">
+  <div class="wrap">
+    <h2>С кем я работаю</h2>
+    <div class="cards4">
+      <div class="card"><div class="ico"><svg><use href="#i-user"/></svg></div><h3>Наставники и тренеры</h3><p>Запускаете курс или выступаете на конференции — подготовлю презентацию, пособия для учеников и лендинг курса.</p></div>
+      <div class="card"><div class="ico"><svg><use href="#i-school"/></svg></div><h3>Школы для мастеров</h3><p>Нужен единый стиль на всё: от логотипа и сертификатов до учебных материалов.</p></div>
+      <div class="card"><div class="ico"><svg><use href="#i-cal"/></svg></div><h3>Организаторы мероприятий</h3><p>Чемпионаты, конференции, мастер-классы: дипломы, сертификаты, презентации спикеров, печатные материалы.</p></div>
+      <div class="card"><div class="ico"><svg><use href="#i-brand"/></svg></div><h3>Мастера с личным брендом</h3><p>Гайд-лидмагнит, прайс, логотип, лендинг для записи или продажи обучения.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Что я делаю -->
+<section id="services">
+  <div class="wrap">
+    <h2>Что я делаю</h2>
+    <div class="svc">
+      <a href="#works" data-go="guides"><div class="pic"><img src="img/flow-2.jpg" alt="Гайд Flow Academy" loading="lazy"></div><div class="body"><h3>Гайды и чек-листы</h3><p>Лидмагниты, полезные материалы для подписчиков и учеников. Структура, обложка, инфографика — читается легко и выглядит дорого.</p><div class="price">от 7 500 ₽</div></div></a>
+      <a href="#works" data-go="slides"><div class="pic"><img src="img/ai-1.jpg" alt="Презентация для выступления" loading="lazy"></div><div class="body"><h3>Презентации для выступлений</h3><p>Для конференций, чемпионатов и мастер-классов. Слайды, которые помогают говорить, а не читать с экрана.</p><div class="price">от 7 500 ₽</div></div></a>
+      <a href="#works" data-go="courses"><div class="pic"><img src="img/disc-1.jpg" alt="Методичка для курса" loading="lazy"></div><div class="body"><h3>Презентации и пособия для курсов</h3><p>Учебные слайды, рабочие тетради, методички для учеников в едином стиле курса.</p><div class="price">от 7 500 ₽</div></div></a>
+      <a href="#works" data-go="landing"><div class="pic"><img src="img/style-3.jpg" alt="Лендинг" loading="lazy"></div><div class="body"><h3>Лендинги курсов и услуг</h3><p>Страница, которая объясняет программу и собирает заявки. Дизайн и сборка.</p><div class="price">от 30 000 ₽</div></div></a>
+      <a href="#works" data-go="logos"><div class="pic"><img class="mid" src="img/logo-3-wide.jpg" alt="Логотип Бьюти Движ" loading="lazy"></div><div class="body"><h3>Логотипы</h3><p>Для мастеров, студий, школ и мероприятий.</p><div class="price">от 10 000 ₽</div></div></a>
+      <a href="#works" data-go="certs"><div class="pic"><img src="img/cert-2.jpg" alt="Сертификаты" loading="lazy"></div><div class="body"><h3>Сертификаты и печать</h3><p>Сертификаты, дипломы, визитки, прайсы, бейджи.</p><div class="price">от 2 500 ₽</div></div></a>
+    </div>
+    <div class="more">
+      <span>Нужно что-то другое или всё сразу? Обсудим проект любого объёма</span>
+      <a class="btn" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Написать в Telegram</a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Флагманский кейс -->
+<section class="flag">
+  <div class="wrap">
+    <h2>Большие проекты, которые я веду годами</h2>
+    <div class="cases">
+      <div class="case">
+        <h3>Школа для бьюти-мастеров — оформление от и до</h3>
+        <p>Полностью собрала визуальную часть школы: учебные слайды, презентации для выступлений, методические пособия, сайты для запусков и печатную продукцию. Всё в одном стиле, поэтому школа узнаётся на любом носителе.</p>
+        <div class="shots two">
+          <button class="shot img"><img src="img/school-2.webp" alt="Выпускницы интенсива со школьными сертификатами" loading="lazy"></button>
+          <button class="shot img"><img src="img/school-3.webp" alt="Выступление в школе, слайд на экране" loading="lazy"></button>
+        </div>
+        <dl><div><dt>Что сделано</dt><dd><ul class="done"><li>1000+ слайдов для курса</li><li>больше 10 презентаций для офлайн-выступлений</li><li>50+ методических пособий и гайдов</li><li>сайты для 4 запусков</li><li>печатная продукция: от визиток до роллапов</li></ul></dd></div><div><dt>Срок сотрудничества</dt><dd>с 2022 года</dd></div></dl>
+      </div>
+      <div class="case">
+        <h3>Чемпионат и конференция «Нева», Санкт-Петербург</h3>
+        <p>Оформляла чемпионат и конференцию в 2023 и 2025 годах: от соцсетей и сайта до фотозоны и печати на площадке.</p>
+        <div class="shots">
+          <button class="shot img"><img src="img/neva-1.webp" alt="Фотозона чемпионата «Нева»" loading="lazy"></button>
+          <button class="shot img"><img src="img/neva-2.webp" alt="Участницы на фоне оформления «Невы»" loading="lazy"></button>
+          <button class="shot img"><img src="img/neva-3.webp" alt="Роллап мастер-класса «Нева»" loading="lazy"></button>
+          <button class="shot img"><img src="img/neva-4.webp" alt="Победители чемпионата «Нева» с кубками" loading="lazy"></button>
+          <button class="shot img"><img src="img/neva-5.webp" alt="Фотозона с картой участниц" loading="lazy"></button>
+        </div>
+        <dl><div><dt>Что сделано</dt><dd><ul class="done"><li>оформление Instagram и всех постов</li><li>сертификаты</li><li>роллапы</li><li>фотозона</li><li>сайт мероприятия</li></ul></dd></div><div><dt>Сезоны</dt><dd>2023 и 2025</dd></div></dl>
+      </div>
+      <div class="case wide">
+        <div>
+          <h3>«Ева» и «Бьюти Движ» — продолжение</h3>
+          <p>После «Невы» организаторы разошлись и запустили по своему проекту. Оформляю оба.</p>
+        </div>
+        <div class="logos2">
+          <img src="img/logo-2.webp" alt="Логотип «Ева»" loading="lazy">
+          <img src="img/logo-3.jpg" alt="Логотип «Бьюти Движ»" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <a class="btn lime" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Хочу так же для своего проекта</a>
+  </div>
+</section>
+
+<!-- 7. Портфолио -->
+<section id="works">
+  <div class="wrap">
+    <h2>Работы</h2>
+    <div class="tabs" id="tabs">
+      <button class="tab on" data-f="all">Все</button>
+      <button class="tab" data-f="guides">Гайды</button>
+      <button class="tab" data-f="slides">Презентации</button>
+      <button class="tab" data-f="courses">Курсы и пособия</button>
+      <button class="tab" data-f="landing">Лендинги</button>
+      <button class="tab" data-f="logos">Логотипы</button>
+      <button class="tab" data-f="certs">Сертификаты</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="moreRow"><button class="btn ghost" id="moreBtn">Показать ещё</button></div>
+  </div>
+</section>
+
+<!-- 8. Цены -->
+<section class="prices" id="prices">
+  <div class="wrap">
+    <h2>Цены</h2>
+    <p class="pnote">Средние цены за типовой объём. Точную стоимость назову, когда увижу ваш материал, — бесплатно и без обязательств.</p>
+    <div class="ptable">
+      <div class="prow"><b>Гайд</b><span>~10 страниц в готовом виде</span><div class="p">от 7 500 ₽</div></div>
+      <div class="prow"><b>Презентация для выступления</b><span>~15 слайдов</span><div class="p">от 7 500 ₽</div></div>
+      <div class="prow"><b>Презентация или пособие для курса</b><span>по объёму материала</span><div class="p">от 7 500 ₽</div></div>
+      <div class="prow"><b>Лендинг курса</b><span>дизайн и сборка</span><div class="p">от 30 000 ₽</div></div>
+      <div class="prow"><b>Логотип</b><span>—</span><div class="p">от 10 000 ₽</div></div>
+      <div class="prow"><b>Сертификат, мелкая печать</b><span>за макет</span><div class="p">от 2 500 ₽</div></div>
+    </div>
+    <p class="pnote">В стоимость входит один круг правок. Каждый следующий — 20% от стоимости заказа.</p>
+    <a class="btn" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Узнать цену моего проекта</a>
+  </div>
+</section>
+
+<!-- 9. Объём -->
+<section class="vol">
+  <div class="wrap">
+    <h2>Без доплат за «воздух»</h2>
+    <p>Я оцениваю проект по объёму вашего материала — тексту, фото, содержанию. Не по количеству страниц, которое получится в итоге.</p>
+    <p>Если для красоты и логики лучше разбить материал на большее число страниц или слайдов, я просто так и делаю. Доплату за это не прошу: насколько «воздушным» будет дизайн — это моя забота, а не ваш бюджет.</p>
+    <p class="accent">Цену вы узнаёте до старта, и она не растёт по ходу работы.</p>
+  </div>
+</section>
+
+<!-- 10. Большие проекты и срочные -->
+<section>
+  <div class="wrap two">
+    <div class="box">
+      <div class="eyebrow">Почасовая оплата</div>
+      <h2>Запуск курса или мероприятие целиком</h2>
+      <p>Готовитесь к старту курса, чемпионату или конференции? Возьму на себя весь визуал: презентации, пособия, сертификаты, лендинг, печать — в едином стиле.</p>
+      <p>Для длительных проектов можно договориться о почасовой оплате: вы не считаете каждый макет, я спокойно веду проект до финала.</p>
+      <div class="rate">Почасовая ставка — 2 500 ₽/час, отчёт по часам — раз в неделю или по этапам, как удобнее вам</div>
+      <a class="btn" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Обсудить большой проект</a>
+    </div>
+    <div class="box dark">
+      <div class="eyebrow">Срочные заказы</div>
+      <h2>Если нужно вчера</h2>
+      <p>Беру срочные заказы. Бывало, что презентацию для выступления на 24 слайда мы делали за 1,5 часа, а лекцию на 100 слайдов — за одну ночь.</p>
+      <p>Напишите срок сразу в первом сообщении: я честно скажу, успеваю ли, и назову цену. Наценка за срочность — +30%.</p>
+      <a class="btn lime" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Нужно срочно — написать в Telegram</a>
+    </div>
+  </div>
+</section>
+
+<!-- 11. Как работаем -->
+<section id="process">
+  <div class="wrap">
+    <h2>Как мы работаем</h2>
+    <div class="steps">
+      <div class="step"><h3>Пишете в Telegram</h3><p>Коротко: что нужно, к какому сроку, есть ли материал.</p></div>
+      <div class="step"><h3>Оцениваю объём</h3><p>Смотрю материал и называю цену и срок. Цена фиксируется. Если вижу, как усилить подачу или запуск, — сразу подскажу: у меня есть опыт в маркетинге.</p></div>
+      <div class="step"><h3>Предоплата и старт</h3><p>Предоплата 50%.</p></div>
+      <div class="step"><h3>Показываю дизайн</h3><p>Вы смотрите, собираете замечания одним списком — это и есть круг правок.</p></div>
+      <div class="step"><h3>Финальные файлы</h3><p>Отдаю в нужных форматах: PDF, PNG, исходник или ссылка на сайт.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. Условия -->
+<section class="terms">
+  <div class="wrap">
+    <h2>Условия</h2>
+    <div class="tgrid">
+      <div class="term"><div class="ico"><svg><use href="#i-edit"/></svg></div><div><h3>Один круг правок входит в стоимость</h3><p>Каждый следующий — 20% от стоимости заказа. Совет: соберите все замечания в одно сообщение, так правки займут один круг.</p></div></div>
+      <div class="term"><div class="ico"><svg><use href="#i-clock"/></svg></div><div><h3>Срок зависит от объёма</h3><p>Называю его до старта. Ориентир: гайд — 4 дня, презентация — 3 дня, лендинг — 10 дней.</p></div></div>
+      <div class="term"><div class="ico"><svg><use href="#i-flash"/></svg></div><div><h3>Срочно — беру</h3><p>Презентацию для выступления на 24 слайда делала за 1,5 часа, лекцию на 100 слайдов — за одну ночь. Наценка за срочность — +30%.</p></div></div>
+      <div class="term"><div class="ico"><svg><use href="#i-file"/></svg></div><div><h3>Форматы</h3><p>PDF для печати и для телефона, PNG, исходник Figma или PowerPoint по запросу.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 14. Вопросы -->
+<section id="faq">
+  <div class="wrap">
+    <h2>Вопросы</h2>
+    <details><summary>У меня нет текста, только идея. Возьмётесь?</summary><p>Да, помогу собрать структуру, которая будет работать. Тексты доведём до идеала через нейросеть. С вас — проактивное участие и ответы на вопросы о специфике вашего бизнеса.</p></details>
+    <details><summary>Сколько стоит мой проект?</summary><p>Пришлите материал в Telegram — назову цену в течение дня. Оценка бесплатная.</p></details>
+    <details><summary>Почему цена не зависит от числа страниц?</summary><p>Я считаю по объёму вашего материала. Если для красоты нужно больше страниц, это моя забота, а не доплата.</p></details>
+    <details><summary>Можно сразу несколько продуктов в одном стиле?</summary><p>Да, так даже лучше: гайд, презентация и сертификаты в одном стиле делают ваш бренд узнаваемым.</p></details>
+    <details><summary>Работаете с большими проектами?</summary><p>Да: запуски курсов, школы, мероприятия. Для длительных проектов возможна почасовая оплата — 2 500 ₽/час.</p></details>
+    <details><summary>Как оплатить?</summary><p>Все детали обсуждаем в Telegram. Предоплата 50%, после оплаты отправляю чек самозанятого.</p></details>
+  </div>
+</section>
+
+<!-- 15. Финал -->
+<section class="final">
+  <div class="wrap">
+    <div>
+      <h2>Расскажите о своём проекте</h2>
+      <p>Напишите, что нужно и к какому сроку. Отвечу в течение дня и сразу скажу цену.</p>
+      <a class="btn" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener"><svg><use href="#tg"/></svg>Написать в Telegram</a>
+      <div class="handle">@NataliaSpesht</div>
+    </div>
+    <img class="photo" src="img/author.jpg" alt="Наталия Спеш, дизайнер для бьюти-сферы" loading="lazy">
+  </div>
+</section>
+
+</main>
+
+<!-- 16. Футер -->
+<footer>
+  <div class="wrap">
+    <div><b>Наталия Спеш</b> · дизайн для бьюти-сферы</div>
+    <div>Telegram: <a href="https://t.me/NataliaSpesht" target="_blank" rel="noopener">@NataliaSpesht</a></div>
+    <small>© 2026 · Самозанятая</small>
+  </div>
+</footer>
+
+<a class="fab" href="https://t.me/NataliaSpesht" target="_blank" rel="noopener" aria-label="Написать в Telegram"><svg><use href="#tg"/></svg></a>
+
+<div class="lb" id="lb">
+  <button class="x" id="lbx" aria-label="Закрыть">✕</button>
+  <button class="pv" id="lbp" aria-label="Назад">←</button>
+  <button class="nx" id="lbn" aria-label="Вперёд">→</button>
+  <img id="lbi" alt=""><p id="lbc"></p>
+</div>
+
+<script>
+// type: guides, slides, courses, landing, certs. Подписи: тип · проект · что на доске.
+const W=[
+ ['flow-1','guides','Гайд','Flow Academy','обзор: обложка, оффер, страницы'],
+ ['flow-2','guides','Гайд','Flow Academy','обложка'],
+ ['flow-3','guides','Гайд','Flow Academy','оффер и первые шаги'],
+ ['look-1','slides','Презентация для выступления','Lookamorte','обзор презентации'],
+ ['look-2','slides','Презентация для выступления','Lookamorte','слайды с атмосферой'],
+ ['look-3','slides','Презентация для выступления','Lookamorte','интерактивные слайды'],
+ ['look-4','slides','Презентация для выступления','Lookamorte','схемы и инфографика'],
+ ['look-5','slides','Презентация для выступления','Lookamorte','финальные слайды'],
+ ['ai-1','slides','Презентация для выступления','Нейросети для бьюти','обзор презентации'],
+ ['ai-2','slides','Презентация для выступления','Нейросети для бьюти','титульный слайд'],
+ ['ai-3','slides','Презентация для выступления','Нейросети для бьюти','инфографика'],
+ ['ai-4','slides','Презентация для выступления','Нейросети для бьюти','слайд с продажей'],
+ ['ai-5','slides','Афиша','Нейросети для бьюти','афиша выступления'],
+ ['disc-1','courses','Методичка для курса','Дисциплина для волос','обзор методички'],
+ ['disc-2','courses','Методичка для курса','Дисциплина для волос','разделы'],
+ ['disc-3','courses','Методичка для курса','Дисциплина для волос','технология по шагам'],
+ ['disc-4','courses','Методичка для курса','Дисциплина для волос','чек-лист'],
+ ['style-1','courses','Воркбук и материалы','Style Refresh','обзор проекта'],
+ ['style-2','courses','Воркбук','Style Refresh','рабочая тетрадь'],
+ ['style-3','landing','Мобильный сайт','Style Refresh','страница-визитка (Taplink)'],
+ ['style-4','landing','Лендинг','Style Refresh','блоки страницы'],
+ ['style-5','courses','Айдентика','Style Refresh','стиль эксперта'],
+ ['logo-1','logos','Логотип','hlorka projekt','знак на светлом фоне'],
+ ['logo-2.webp','logos','Логотип','Ева','чемпионат и конференция по оформлению взгляда'],
+ ['logo-3','logos','Логотип','Бьюти Движ','логотип с фирменным шрифтом'],
+ ['cert-1','certs','Сертификаты','Для школы стилистов','макеты сертификатов'],
+ ['cert-2','certs','Сертификаты','Для школы стилистов','комплект: сертификат и оформление']
+];
+const thumb=n=>n.includes('.')?n:n+'.jpg';
+const grid=document.getElementById('grid'), moreBtn=document.getElementById('moreBtn');
+const STEP=9; let filter='all', shown=STEP;
+W.forEach((w,i)=>{
+  const b=document.createElement('button'); b.className='work'; b.dataset.t=w[1]; b.dataset.i=i;
+  b.innerHTML=`<span class="im"><img src="img/${thumb(w[0])}" alt="${w[2]} — ${w[3]}" loading="lazy"></span><span class="cap"><b>${w[2]}</b>${w[3]} · ${w[4]}</span>`;
+  grid.appendChild(b);
+});
+function render(){
+  let n=0, total=0;
+  grid.querySelectorAll('.work').forEach(el=>{
+    const ok=filter==='all'||el.dataset.t===filter;
+    if(ok) total++;
+    el.hidden=!(ok&&n<shown); if(ok&&n<shown) n++;
+  });
+  moreBtn.parentElement.style.display=total>shown?'':'none';
+}
+document.getElementById('tabs').addEventListener('click',e=>{
+  const t=e.target.closest('.tab'); if(!t) return; setFilter(t.dataset.f);
+});
+function setFilter(f){
+  filter=f; shown=STEP;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.f===f));
+  render();
+}
+moreBtn.onclick=()=>{shown+=STEP;render()};
+document.querySelectorAll('[data-go]').forEach(a=>a.addEventListener('click',()=>setFilter(a.dataset.go)));
+render();
+
+// lightbox
+const lb=document.getElementById('lb'), lbi=document.getElementById('lbi'), lbc=document.getElementById('lbc');
+let cur=0, list=[];  // list: [{src, alt, cap}]
+function open(items,i){ list=items; cur=i; show(); lb.classList.add('open'); document.body.style.overflow='hidden'; }
+function show(){const x=list[cur]; lbi.src=x.src; lbi.alt=x.alt; lbc.textContent=x.cap}
+function step(d){cur=(cur+d+list.length)%list.length;show()}
+function close(){lb.classList.remove('open');document.body.style.overflow=''}
+grid.addEventListener('click',e=>{
+  const b=e.target.closest('.work'); if(!b) return;
+  const idx=[...grid.querySelectorAll('.work:not([hidden])')].map(el=>+el.dataset.i);
+  open(idx.map(i=>{const w=W[i];return{src:`img/${thumb(w[0]).replace(/(\.\w+)$/,'-big$1')}`,alt:w[3],cap:`${w[2]} · ${w[3]} · ${w[4]}`}}), idx.indexOf(+b.dataset.i));
+});
+document.querySelectorAll('.shots').forEach(box=>box.addEventListener('click',e=>{
+  const b=e.target.closest('.shot.img'); if(!b) return;
+  const btns=[...box.querySelectorAll('.shot.img')];
+  open(btns.map(x=>{const m=x.querySelector('img');return{src:m.getAttribute('src'),alt:m.alt,cap:m.alt}}), btns.indexOf(b));
+}));
+document.getElementById('lbx').onclick=close;
+document.getElementById('lbp').onclick=()=>step(-1);
+document.getElementById('lbn').onclick=()=>step(1);
+lb.addEventListener('click',e=>{if(e.target===lb)close()});
+addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')step(-1);if(e.key==='ArrowRight')step(1)});
+
+// анимации: появление при прокрутке, тень шапки, движение коллажа за мышью
+(function(){
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const hdr=document.querySelector('header');
+  const onScroll=()=>hdr.classList.toggle('scrolled',scrollY>8);
+  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  if(!reduce){
+    const sel='section h2,.eyebrow:not(.hero .eyebrow),.lead:not(.hero .lead),.num,.inside,.plate,.card,.svc a,.more,.case,.flag .btn,.tabs,.work,.pnote,.ptable .prow,.vol p,.box,.step,.term,.review,details,.final .wrap>*';
+    const els=[...document.querySelectorAll(sel)].filter(e=>!e.closest('.hero')&&!e.matches('.photo'));
+    document.documentElement.classList.add('js');
+    const io=new IntersectionObserver(es=>es.forEach(en=>{
+      if(!en.isIntersecting) return;
+      const e=en.target; e.classList.add('in'); io.unobserve(e);
+      setTimeout(()=>e.classList.remove('rv','in'),1100+parseFloat(e.style.getPropertyValue('--rd'))*1000||1100);
+    }),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+    els.forEach(e=>{
+      if(e.classList.contains('work')) return;  // у работ своя анимация при показе
+      const sibs=[...e.parentElement.children].filter(x=>x.matches(sel));
+      e.style.setProperty('--rd',Math.min(sibs.indexOf(e),5)*0.08+'s');
+      e.classList.add('rv'); io.observe(e);
+    });
+    const col=document.querySelector('.collage');
+    if(col&&matchMedia('(hover:hover)').matches){
+      const hero=document.querySelector('.hero');
+      hero.addEventListener('mousemove',ev=>{
+        const r=hero.getBoundingClientRect();
+        col.style.setProperty('--mx',((ev.clientX-r.left)/r.width-.5).toFixed(3));
+        col.style.setProperty('--my',((ev.clientY-r.top)/r.height-.5).toFixed(3));
+      });
+      hero.addEventListener('mouseleave',()=>{col.style.setProperty('--mx',0);col.style.setProperty('--my',0)});
+    }
+  }
+})();
+
+// burger
+const burger=document.getElementById('burger'), nav=document.getElementById('nav');
+burger.onclick=()=>{burger.classList.toggle('open');nav.classList.toggle('open')};
+nav.addEventListener('click',e=>{if(e.target.tagName==='A'){burger.classList.remove('open');nav.classList.remove('open')}});
+</script>
+</body>
+</html>
